@@ -15,7 +15,7 @@ import model.CustomerBean;
 import model.CustomerService;
 
 @WebServlet(
-		urlPatterns={"/secure/login.controller"}
+		urlPatterns={"/secure/login.ttt"}
 )
 public class LoginServlet extends HttpServlet {
 	private CustomerService customerService = new CustomerService();
